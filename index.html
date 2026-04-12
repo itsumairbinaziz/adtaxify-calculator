@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -106,4 +107,114 @@
 
     <script src="script.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdTaxify | FBR Income Tax Calculator Pakistan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-wrapper">
+        <div class="calculator-card">
+            <header class="header">
+                <!-- <img src="adtaxify.png" alt="AdTaxify Logo" width="100" height="100"> -->
+                <div class="brand">
+                    <!-- <span class="logo-blue">Ad</span><span class="logo-orange">Taxify</span> -->
+                </div>
+                <h1>Income Tax Calculator</h1>
+                <p>Calculate your FBR income tax for the latest fiscal years</p>
+            </header>
+
+            <form id="taxForm" onsubmit="event.preventDefault();">
+                <div class="form-grid">
+                    <div class="input-group">
+                        <label for="incomeSource">Income Source</label>
+                        <select id="incomeSource">
+                            <option value="salaried">Salaried Individual</option>
+                            <option value="business">Business / AOP</option>
+                            <option value="freelancer">Freelancer (Export)</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="taxYear">Tax Year</label>
+                        <select id="taxYear">
+                            <option value="2024-2025">2024 - 2025</option>
+                            <option value="2025-2026">2025 - 2026</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="toggle-container">
+                    <span class="toggle-label">Income Frequency:</span>
+                    <div class="toggle-switch">
+                        <button type="button" id="toggleMonthly" class="active" onclick="setFrequency('monthly')">Monthly</button>
+                        <button type="button" id="toggleYearly" onclick="setFrequency('yearly')">Yearly</button>
+                    </div>
+                </div>
+
+                <div class="input-group main-input">
+                    <label id="incomeLabel" for="incomeAmount">Enter Monthly Income (PKR)</label>
+                    <div class="input-wrapper">
+                        <span class="currency-tag">Rs.</span>
+                        <input type="number" id="incomeAmount" placeholder="e.g. 150000" step="any">
+                    </div>
+                    <span id="errorMsg" class="error-text"></span>
+                </div>
+
+                <div class="action-buttons">
+                    <button type="button" class="btn-calculate" onclick="calculate()">Calculate Tax</button>
+                    <button type="button" class="btn-reset" onclick="resetForm()">Reset</button>
+                </div>
+            </form>
+
+            <div id="resultSection" class="results-area hidden">
+                <div class="divider"></div>
+                
+                <div class="summary-cards">
+                    <div class="summary-card">
+                        <span>Yearly Income</span>
+                        <h3 id="resYearlyIncome">PKR 0</h3>
+                    </div>
+                    <div class="summary-card highlight-orange">
+                        <span>Yearly Tax</span>
+                        <h3 id="resYearlyTax">PKR 0</h3>
+                    </div>
+                    <div class="summary-card highlight-blue">
+                        <span>Net Income (Yearly)</span>
+                        <h3 id="resYearlyNet">PKR 0</h3>
+                    </div>
+                </div>
+
+                <div class="detailed-stats">
+                    <div class="stat-row">
+                        <span>Monthly Income (Gross)</span>
+                        <span id="resMonthlyIncome">PKR 0</span>
+                    </div>
+                    <div class="stat-row">
+                        <span>Monthly Tax</span>
+                        <span id="resMonthlyTax" class="tax-text">PKR 0</span>
+                    </div>
+                    <div class="stat-row bold">
+                        <span>Monthly Take Home</span>
+                        <span id="resMonthlyNet" class="net-text">PKR 0</span>
+                    </div>
+                </div>
+
+                <div class="breakdown-section">
+                    <h4>Tax Breakdown</h4>
+                    <div id="slabBreakdown" class="breakdown-list">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+>>>>>>> caa148c (first commit)
 </html>
