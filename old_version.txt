@@ -1,0 +1,266 @@
+{
+  "2010-2011": { "salaried": [], "business": [], "freelancer": [] },
+  "2011-2012": { "salaried": [], "business": [], "freelancer": [] },
+  "2012-2013": { "salaried": [], "business": [], "freelancer": [] },
+  "2013-2014": { "salaried": [], "business": [], "freelancer": [] },
+  "2014-2015": { "salaried": [], "business": [], "freelancer": [] },
+  "2015-2016": { "salaried": [], "business": [], "freelancer": [] },
+  "2016-2017": { "salaried": [], "business": [], "freelancer": [] },
+  "2017-2018": { "salaried": [], "business": [], "freelancer": [] },
+  "2018-2019": { "salaried": [], "business": [], "freelancer": [] },
+  "2019-2020": { "salaried": [], "business": [], "freelancer": [] },
+  "2020-2021": { "salaried": [], "business": [], "freelancer": [] },
+  "2021-2022": { "salaried": [], "business": [], "freelancer": [] },
+  "2022-2023": { "salaried": [], "business": [], "freelancer": [] },
+  "2023-2024": { "salaried": [], "business": [], "freelancer": [] },
+
+  "2024-2025": {
+    "salaried": [
+      { "min": 0, "max": 600000, "rate": 0, "fixed": 0 },
+      { "min": 600000, "max": 1200000, "rate": 0.05, "fixed": 0 },
+      { "min": 1200000, "max": 2200000, "rate": 0.15, "fixed": 30000 },
+      { "min": 2200000, "max": 3200000, "rate": 0.25, "fixed": 180000 },
+      { "min": 3200000, "max": 4100000, "rate": 0.30, "fixed": 430000 },
+      { "min": 4100000, "max": 999999999, "rate": 0.35, "fixed": 700000 }
+    ],
+    "business": [
+      { "min": 0, "max": 600000, "rate": 0, "fixed": 0 },
+      { "min": 600000, "max": 800000, "rate": 0.07, "fixed": 0 },
+      { "min": 800000, "max": 1200000, "rate": 0.15, "fixed": 14000 },
+      { "min": 1200000, "max": 2400000, "rate": 0.20, "fixed": 74000 },
+      { "min": 2400000, "max": 3000000, "rate": 0.25, "fixed": 314000 },
+      { "min": 3000000, "max": 4000000, "rate": 0.30, "fixed": 464000 },
+      { "min": 4000000, "max": 999999999, "rate": 0.35, "fixed": 764000 }
+    ],
+    "freelancer": [
+      { "min": 0, "max": 999999999, "rate": 0.01, "fixed": 0 }
+    ]
+  }
+}
+
+
+/////////////////////////////////       JSON             //////////////////////////
+
+
+
+
+
+{
+  "2010-2011": {
+    "salaried": [
+      { "min": 0, "max": 300000, "rate": 0, "fixed": 0 },
+      { "min": 300000, "max": 350000, "rate": 0.0075, "fixed": 0 },
+      { "min": 350000, "max": 400000, "rate": 0.015, "fixed": 375 },
+      { "min": 400000, "max": 450000, "rate": 0.025, "fixed": 1125 },
+      { "min": 450000, "max": 550000, "rate": 0.035, "fixed": 2375 }
+    ],
+    "business": [
+      { "min": 0, "max": 300000, "rate": 0, "fixed": 0 },
+      { "min": 300000, "max": 500000, "rate": 0.075, "fixed": 0 },
+      { "min": 500000, "max": 750000, "rate": 0.10, "fixed": 15000 },
+      { "min": 750000, "max": 1000000, "rate": 0.15, "fixed": 40000 }
+    ],
+    "freelancer": [{ "min": 0, "max": 999999999, "rate": 0.01, "fixed": 0 }]
+  },
+  "2011-2012": {
+    "salaried": [
+      { "min": 0, "max": 350000, "rate": 0, "fixed": 0 },
+      { "min": 350000, "max": 400000, "rate": 0.015, "fixed": 0 },
+      { "min": 400000, "max": 450000, "rate": 0.025, "fixed": 750 },
+      { "min": 450000, "max": 550000, "rate": 0.035, "fixed": 2000 }
+    ],
+    "business": [
+      { "min": 0, "max": 350000, "rate": 0, "fixed": 0 },
+      { "min": 350000, "max": 500000, "rate": 0.05, "fixed": 0 },
+      { "min": 500000, "max": 750000, "rate": 0.10, "fixed": 7500 },
+      { "min": 750000, "max": 1000000, "rate": 0.15, "fixed": 32500 }
+    ],
+    "freelancer": [{ "min": 0, "max": 999999999, "rate": 0.01, "fixed": 0 }]
+  },
+  "2012-2013": {
+    "salaried": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 750000, "rate": 0.05, "fixed": 0 },
+      { "min": 750000, "max": 1500000, "rate": 0.10, "fixed": 17500 },
+      { "min": 1500000, "max": 2000000, "rate": 0.15, "fixed": 92500 }
+    ],
+    "business": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 750000, "rate": 0.10, "fixed": 0 },
+      { "min": 750000, "max": 1500000, "rate": 0.15, "fixed": 35000 },
+      { "min": 1500000, "max": 2500000, "rate": 0.20, "fixed": 147500 }
+    ],
+    "freelancer": [{ "min": 0, "max": 999999999, "rate": 0.01, "fixed": 0 }]
+  },
+  "2013-2014": {
+    "salaried": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 750000, "rate": 0.05, "fixed": 0 },
+      { "min": 750000, "max": 1400000, "rate": 0.10, "fixed": 17500 },
+      { "min": 1400000, "max": 1500000, "rate": 0.125, "fixed": 82500 },
+      { "min": 1500000, "max": 1800000, "rate": 0.15, "fixed": 95000 }
+    ],
+    "business": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 500000, "rate": 0.10, "fixed": 0 },
+      { "min": 500000, "max": 750000, "rate": 0.15, "fixed": 10000 },
+      { "min": 750000, "max": 1500000, "rate": 0.20, "fixed": 47500 }
+    ],
+    "freelancer": [{ "min": 0, "max": 999999999, "rate": 0.01, "fixed": 0 }]
+  },
+  "2014-2015": {
+    "salaried": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 750000, "rate": 0.05, "fixed": 0 },
+      { "min": 750000, "max": 1400000, "rate": 0.10, "fixed": 17500 },
+      { "min": 1400000, "max": 1500000, "rate": 0.125, "fixed": 82500 },
+      { "min": 1500000, "max": 1800000, "rate": 0.15, "fixed": 95000 }
+    ],
+    "business": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 500000, "rate": 0.10, "fixed": 0 },
+      { "min": 500000, "max": 750000, "rate": 0.15, "fixed": 10000 },
+      { "min": 750000, "max": 1500000, "rate": 0.20, "fixed": 47500 }
+    ],
+    "freelancer": [{ "min": 0, "max": 999999999, "rate": 0.01, "fixed": 0 }]
+  },
+  "2015-2016": {
+    "salaried": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 500000, "rate": 0.02, "fixed": 0 },
+      { "min": 500000, "max": 750000, "rate": 0.05, "fixed": 2000 },
+      { "min": 750000, "max": 1400000, "rate": 0.10, "fixed": 14500 },
+      { "min": 1400000, "max": 1500000, "rate": 0.125, "fixed": 79500 }
+    ],
+    "business": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 500000, "rate": 0.07, "fixed": 0 },
+      { "min": 500000, "max": 750000, "rate": 0.10, "fixed": 7000 },
+      { "min": 750000, "max": 1500000, "rate": 0.15, "fixed": 32000 }
+    ],
+    "freelancer": [{ "min": 0, "max": 999999999, "rate": 0.01, "fixed": 0 }]
+  },
+  "2016-2017": {
+    "salaried": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 500000, "rate": 0.02, "fixed": 0 },
+      { "min": 500000, "max": 750000, "rate": 0.05, "fixed": 2000 },
+      { "min": 750000, "max": 1400000, "rate": 0.10, "fixed": 14500 }
+    ],
+    "business": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 500000, "rate": 0.07, "fixed": 0 },
+      { "min": 500000, "max": 750000, "rate": 0.10, "fixed": 7000 },
+      { "min": 750000, "max": 1500000, "rate": 0.15, "fixed": 32000 }
+    ],
+    "freelancer": [{ "min": 0, "max": 999999999, "rate": 0.01, "fixed": 0 }]
+  },
+  "2017-2018": {
+    "salaried": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 500000, "rate": 0.02, "fixed": 0 },
+      { "min": 500000, "max": 750000, "rate": 0.05, "fixed": 2000 },
+      { "min": 750000, "max": 1400000, "rate": 0.10, "fixed": 14500 }
+    ],
+    "business": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 500000, "rate": 0.07, "fixed": 0 },
+      { "min": 500000, "max": 750000, "rate": 0.10, "fixed": 7000 },
+      { "min": 750000, "max": 1500000, "rate": 0.15, "fixed": 32000 }
+    ],
+    "freelancer": [{ "min": 0, "max": 999999999, "rate": 0.01, "fixed": 0 }]
+  },
+  "2018-2019": {
+    "salaried": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 800000, "rate": 0.01, "fixed": 1000 },
+      { "min": 800000, "max": 1200000, "rate": 0.02, "fixed": 2000 }
+    ],
+    "business": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 800000, "rate": 0.05, "fixed": 0 },
+      { "min": 800000, "max": 1200000, "rate": 0.10, "fixed": 20000 }
+    ],
+    "freelancer": [{ "min": 0, "max": 999999999, "rate": 0.01, "fixed": 0 }]
+  },
+  "2019-2020": {
+    "salaried": [
+      { "min": 0, "max": 600000, "rate": 0, "fixed": 0 },
+      { "min": 600000, "max": 1200000, "rate": 0.05, "fixed": 0 },
+      { "min": 1200000, "max": 1800000, "rate": 0.10, "fixed": 30000 }
+    ],
+    "business": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 600000, "rate": 0.05, "fixed": 0 },
+      { "min": 600000, "max": 1200000, "rate": 0.10, "fixed": 10000 }
+    ],
+    "freelancer": [{ "min": 0, "max": 999999999, "rate": 0.01, "fixed": 0 }]
+  },
+  "2020-2021": {
+    "salaried": [
+      { "min": 0, "max": 600000, "rate": 0, "fixed": 0 },
+      { "min": 600000, "max": 1200000, "rate": 0.05, "fixed": 0 },
+      { "min": 1200000, "max": 1800000, "rate": 0.10, "fixed": 30000 }
+    ],
+    "business": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 600000, "rate": 0.05, "fixed": 0 },
+      { "min": 600000, "max": 1200000, "rate": 0.10, "fixed": 10000 }
+    ],
+    "freelancer": [{ "min": 0, "max": 999999999, "rate": 0.01, "fixed": 0 }]
+  },
+  "2021-2022": {
+    "salaried": [
+      { "min": 0, "max": 600000, "rate": 0, "fixed": 0 },
+      { "min": 600000, "max": 1200000, "rate": 0.05, "fixed": 0 },
+      { "min": 1200000, "max": 1800000, "rate": 0.10, "fixed": 30000 }
+    ],
+    "business": [
+      { "min": 0, "max": 400000, "rate": 0, "fixed": 0 },
+      { "min": 400000, "max": 600000, "rate": 0.05, "fixed": 0 },
+      { "min": 600000, "max": 1200000, "rate": 0.10, "fixed": 10000 }
+    ],
+    "freelancer": [{ "min": 0, "max": 999999999, "rate": 0.01, "fixed": 0 }]
+  },
+  "2022-2023": {
+    "salaried": [
+      { "min": 0, "max": 600000, "rate": 0, "fixed": 0 },
+      { "min": 600000, "max": 1200000, "rate": 0.025, "fixed": 0 },
+      { "min": 1200000, "max": 2400000, "rate": 0.125, "fixed": 15000 }
+    ],
+    "business": [
+      { "min": 0, "max": 600000, "rate": 0, "fixed": 0 },
+      { "min": 600000, "max": 800000, "rate": 0.07, "fixed": 0 },
+      { "min": 800000, "max": 1200000, "rate": 0.125, "fixed": 14000 }
+    ],
+    "freelancer": [{ "min": 0, "max": 999999999, "rate": 0.01, "fixed": 0 }]
+  },
+  "2023-2024": {
+    "salaried": [
+      { "min": 0, "max": 600000, "rate": 0, "fixed": 0 },
+      { "min": 600000, "max": 1200000, "rate": 0.025, "fixed": 0 },
+      { "min": 1200000, "max": 2400000, "rate": 0.125, "fixed": 15000 }
+    ],
+    "business": [
+      { "min": 0, "max": 600000, "rate": 0, "fixed": 0 },
+      { "min": 600000, "max": 800000, "rate": 0.075, "fixed": 0 },
+      { "min": 800000, "max": 1200000, "rate": 0.15, "fixed": 15000 }
+    ],
+    "freelancer": [{ "min": 0, "max": 999999999, "rate": 0.01, "fixed": 0 }]
+  },
+  "2024-2025": {
+    "salaried": [
+      { "min": 0, "max": 600000, "rate": 0, "fixed": 0 },
+      { "min": 600000, "max": 1200000, "rate": 0.05, "fixed": 0 },
+      { "min": 1200000, "max": 2200000, "rate": 0.15, "fixed": 30000 }
+    ],
+    "business": [
+      { "min": 0, "max": 600000, "rate": 0, "fixed": 0 },
+      { "min": 600000, "max": 800000, "rate": 0.07, "fixed": 0 },
+      { "min": 800000, "max": 1200000, "rate": 0.15, "fixed": 14000 }
+    ],
+    "freelancer": [{ "min": 0, "max": 999999999, "rate": 0.01, "fixed": 0 }]
+  }
+}
+
+
